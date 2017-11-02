@@ -10,6 +10,7 @@ import { NotfoundComponent } from './components/notfound/notfound.component';
 import { SignUpComponent } from './components/sign-up/sign-up.component';
 import { AuthGuardService } from './services/auth-guard.service';
 import { AuthGuardLoggedService } from './services/auth-guard-logged.service';
+import { UserprofileComponent } from './components/userprofile/userprofile.component';
 
 const appRoutes: Routes = [
     { path: 'home', component:  LoginComponent, canActivate: [AuthGuardService]},
